@@ -49,3 +49,13 @@ def draw():
     shape(s, 0, 0)
     fill(0, 0, 0)
     text("gwiazdeczka :3", 180, 200)
+    
+    fill(127,18,122)
+    noStroke()
+    ellipse(width-60,height-51,20,20)
+    fill(127,18,122)
+    noStroke()
+    ellipse(width-42,height-51,20,20)
+    fill(127,18,122)
+    noStroke()
+    triangle(width-70,height-48,width-50,height-23,width-32,height-48)
