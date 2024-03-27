@@ -73,3 +73,11 @@ def draw():
     shape(s, 22, 22)
     
     text("hejka", 22,22)
+    
+    #Agata
+    fill(255, 0, 0)
+    if mousePressed:
+        rect(mouseX, mouseY, 5, 5)
+        
+    fill(155, 0, 0)
+    text("Chryzantemy zlociste", width/2, height/2)
