@@ -81,3 +81,8 @@ def draw():
         
     fill(155, 0, 0)
     text("Chryzantemy zlociste", width/2, height/2)
+    
+    key == "g"
+    if key == "g":
+        fill(0, 100, 0)
+        text("witam", width/2+150, height/2-90)
