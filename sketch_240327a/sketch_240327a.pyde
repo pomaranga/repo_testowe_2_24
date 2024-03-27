@@ -59,3 +59,17 @@ def draw():
     fill(127,18,122)
     noStroke()
     triangle(width-70,height-48,width-50,height-23,width-32,height-48)
+    
+    
+     #Sandra
+    s.beginShape()
+    s.fill(0, 0, 100, 100)
+    s.stroke(0, 0, 100, 100)
+    s.vertex(width-22, height-58)
+    s.vertex(50, height/2)
+    s.vertex(150, 100)
+    s.vertex(9, 30)
+    s.endShape(CLOSE)
+    shape(s, 22, 22)
+    
+    text("hejka", 22,22)
