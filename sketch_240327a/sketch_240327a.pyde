@@ -1,13 +1,13 @@
-# sprawdziłąm stare repozytorium i wygląda na to, że ktoś (Marta?)
+# sprawdziłam stare repozytorium i wygląda na to, że ktoś (Marta?)
 # wymusił force push bez dociągnięcia i zaakceptowania zmian od innych
 # to zaskutkowało cofnięciem o wszystkie zmieny innych i stąd kazało je wysyłać ponownie jako swoje
 
 # te repozytorium jest kopią wyniku tamtego
 def setup():
-    size(400, 400)
+    size(500, 500)
     background(255)
-    textSize(15)
-    
+    textSize(18)
+	
 def draw():
     s = createShape()
     s.beginShape()
@@ -45,3 +45,7 @@ def draw():
     stroke (0, mouseX, 0)
     arc (200, 250, 300, 350, 0, HALF_PI)
     noFill()
+
+    shape(s, 0, 0)
+    fill(0, 0, 0)
+    text("gwiazdeczka :3", 180, 200)
